@@ -1,0 +1,19 @@
+mKYF minimization step 1; AA constrained; solvent and ion minimization
+ &cntrl
+  imin=1,
+  ntx=1,
+  irest=0,
+  maxcyc=10000,
+  ntpr=100,
+  ntwx=100,
+  cut=12.0,
+  ntr=1,
+  ntb=1,
+  ioutfm=1,
+  iwrap=1,
+ /
+Restrain 3evg
+100.0
+RES 1 260
+END
+END
