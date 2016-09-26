@@ -1,0 +1,30 @@
+Equilibration step 1; NPT; weak constraints on peptide; 10 ps x 4 runs
+ &cntrl
+  imin=0,
+  irest=1,
+  ntx=5,
+  ntpr=1000,
+  ntwr=1000,
+  ntwx=1000,
+  nstlim=5000,
+  dt=0.002,
+  ntt=3,
+  temp0=310.0,
+  ig=-1,
+  gamma_ln=2,
+  ntp=1,
+  barostat=2,
+  pres0=1.0,
+  ntc=2,
+  ntf=2,
+  ntb=2,
+  cut=12.0,
+  ntr=1,
+  ioutfm=1,
+  iwrap=1,
+ /
+Weak constraints on peptide
+5.0
+RES 8 264
+END
+END
